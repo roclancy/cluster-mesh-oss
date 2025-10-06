@@ -1,0 +1,2 @@
+
+cilium hubble enable --ui

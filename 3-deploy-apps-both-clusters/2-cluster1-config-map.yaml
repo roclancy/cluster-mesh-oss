@@ -1,0 +1,8 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rebel-base-response
+data:
+  message: "{\"CLUSTER-1\": \"The-Access-Group-Production\"}\n"
+  
