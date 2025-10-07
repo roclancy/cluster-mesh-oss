@@ -113,17 +113,17 @@ Follow the steps below to run the script and perform the tests: <br>
 2) Now from the same directory using your terminal run command "source 00-create-all.sh" <br>
 - you will see the script remove cluster1 from the Cluster Mesh avaliable global load balancers and generate requests from both cluster1 and cluster2 <br>
 <br>
-<img width="415" height="388" alt="image" src="https://github.com/user-attachments/assets/2ff8bd66-fb6e-4842-8b8a-e735a45dc3c7" />
- <br>
+<img width="375" height="426" alt="image" src="https://github.com/user-attachments/assets/0d2db452-fbe9-4b50-8f53-014c8e98212b" /> <br>
 <br>
-Now restore cluster1 back to Cluster Mesh list of availble clusters to load balance requests too, so all request will be service by cluster1 & cluster2 once restored.
+Now restore cluster1 back to Cluster Mesh list of availble clusters to load balance requests too, so all request will be service by cluster1 & cluster2 once restored. <br>
 <br>
 Follow the steps below to run the script and perform the tests: <br>
+<br>
 1) Change into directory called "8-test5-restore-cluster1-to-global-lb" <br>
 2) Now from the same directory using your terminal run command "source 00-create-all.sh" <br>
 - you will see the script restore cluster1 back to the pool of avalible cluster and generate requests from both clusters1 & Cluster2 and how the requests are services. <br>
 <br>
-<img width="403" height="363" alt="image" src="https://github.com/user-attachments/assets/7c261655-8374-4085-a01f-a71050e7a240" /> <br>
+<img width="370" height="337" alt="image" src="https://github.com/user-attachments/assets/24f5bf31-c451-4d91-9524-453ea5e35ec4" /> <br>
 <br>
 
 ## Test 4 - Affinity - Define where a request should be serviced from - Local
