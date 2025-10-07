@@ -88,7 +88,7 @@ Follow the steps below to run the script and perform the tests: <br>
 2) Now from the same directory using your terminal run command "source 00-create-all.sh" <br>
 - you will see the script output showing it is scaling down cluster2 and then all requests are serviced (via the load balancer) from the only remaining pod rebel-base which is on cluster1
 <br>
-<img width="354" height="299" alt="image" src="https://github.com/user-attachments/assets/25f32b46-9e54-4a52-9d00-45cc285dedde" /> <br>
+<img width="285" height="295" alt="image" src="https://github.com/user-attachments/assets/ef8d0171-625d-424b-ab1f-6d6dc75020a0" /> <br>
 <br>
 
 Now restore the rebel-base pods on cluster2, marking the end of the failure outage, this will cause the load balancer to learn that the cluster2 rebel-pods are back and will then start load balancing between cluster1 and cluster2 as it did before the failure.
@@ -98,7 +98,7 @@ Follow the steps below to run the script and perform the tests: <br>
 2) Now from the same directory using your terminal run command "source 00-create-all.sh" <br>
 - you will see the script scale up the rebel-base pods on cluster2 and then generate a number of request to show the load balancer is again load balancing between cluster1 and cluster2 <br>
 <br>
-<img width="648" height="269" alt="image" src="https://github.com/user-attachments/assets/2f1961f6-b9f4-4ba8-a1d1-2e183f7ea5c3" /> <br>
+<img width="610" height="333" alt="image" src="https://github.com/user-attachments/assets/2bae2e05-a0c5-4f8a-b5f6-2f1548231425" /> <br>
 <br>
 
 ## Test 3 - Remove a cluster from the Cluster Mesh Load Balancer
