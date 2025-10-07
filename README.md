@@ -25,13 +25,13 @@ You will need the following installed
 <br> <img width="366" height="205" alt="image" src="https://github.com/user-attachments/assets/fd99d399-6ea1-4afa-812f-30406106222d" /> <br>
 <br>
 4) Now Connect the 2 new kubernetes cluster created using Cluster Mesh <br>
+<br>
 - Change to directory called "2-connect-clusters" <br>
 - Now run command "source 00-create-all.sh" <br>
 - This will now connect both the newly created clusters kind-cluster1 & kind-cluster2 using clustermesh <br>
 - Finally it will run a status command for Cluster Mesh and print out the results - wait until it displays all connected this can take a few minuites <br>
 <br>
-<img width="649" height="116" alt="image" src="https://github.com/user-attachments/assets/806c5df5-714c-4cfb-bae5-f4eba3e456fa" />
-<br>
+<img width="649" height="208" alt="image" src="https://github.com/user-attachments/assets/3a9cade2-157c-45ec-9977-039ecf1e5e6b" /><br>
 <br>
 5) Now we create some workload, services and some data that each workload will hold, and deploy this to both kubernetes clusters we created, the workloads are called xwing and rebel-base <br>
 <br>
@@ -42,11 +42,11 @@ The scripts in the tests/demo below will use these workloads for requests and pu
 - This will now deploy the workloads, create the services and config-map for each workload to hold data and then enable port-forwarding for the Hubble UI <br>
 - The script to create the workloads will also create a series of requests and will output the values, you will see the request being service by the cluster the request came from (it is not load balancing at this point this will be enabled in the tests below)<br>
 <br>
-<img width="396" height="217" alt="image" src="https://github.com/user-attachments/assets/a146050a-b8f1-4ead-97d7-eb046fdc07f9" />
+<img width="594" height="197" alt="image" src="https://github.com/user-attachments/assets/c8c91371-6aa3-42ab-a498-fea6e1cdb99e" /> <br>
 <br>
 - Once it has all completed put http://127.0.0.1:12000 in your browser and you will see the Hubble UI, select default namespace <br>
 <br>
-<img width="347" height="561" alt="image" src="https://github.com/user-attachments/assets/236db305-5d24-4f76-90b9-148d59dd69f9" />
+<img width="380" height="569" alt="image" src="https://github.com/user-attachments/assets/2e0e0b15-ee32-4ceb-9ac6-ad59718ab87a" /> <br>
 <br>
   
 # 3 - Run tests to demonstrate Cluster Mesh capabilities
