@@ -22,8 +22,7 @@ You will need the following installed
 - After the 2 new clusters are created check you can see them in the kube.conf file - use command "kubectl config get-contexts"
 - You should see 2 clusters named "kind-cluster1 and kind-cluster2"
 <br>
-<img width="411" height="149" alt="image" src="https://github.com/user-attachments/assets/03eb4922-1d07-4fbd-ac94-c666c82731d7" /> <br>
-
+<br> <img width="366" height="205" alt="image" src="https://github.com/user-attachments/assets/fd99d399-6ea1-4afa-812f-30406106222d" /> <br>
 <br>
 4) Now Connect the 2 new kubernetes cluster created using Cluster Mesh <br>
 - Change to directory called "2-connect-clusters" <br>
