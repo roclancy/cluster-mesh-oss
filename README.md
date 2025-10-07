@@ -66,14 +66,15 @@ Follow the steps below to run the script and perform the tests:
 2) Now from the same directory using your terminal run command "source 00-create-all.sh"
 - The script runs fast, once completed look at the output. You will see the before and after and how the request are now being handled by the load balancer from cluster1 and cluster2
 <br>
-<img width="380" height="238" alt="image" src="https://github.com/user-attachments/assets/90cba1aa-c486-4aca-b044-6bf56860156a" /> <br>
+<img width="432" height="271" alt="image" src="https://github.com/user-attachments/assets/cc4b34d4-99c3-4334-a389-65c78687f9cb" /><br>
+<img width="287" height="206" alt="image" src="https://github.com/user-attachments/assets/ab15239f-a90a-4b3e-8067-ad056815cdea" /> <br>
 <br>
 
 3) In the Hubble UI you can see the connections and request being made as the script ran, notice the cluster name in each pods (cluster1 and cluster2) click on xwing and you will see requests being serviced from rebel-base in cluster 1 and 2 (this is the load balancing in action) <br>
 <br>
-<img width="1483" height="297" alt="image" src="https://github.com/user-attachments/assets/59687daa-782c-47fc-aa5d-f1dbc420dab0" /> <br>
+<img width="1482" height="287" alt="image" src="https://github.com/user-attachments/assets/02bc132f-c7ce-4392-9ff1-db23c0a1ed5c" /><br>
 <br>
-<img width="756" height="470" alt="image" src="https://github.com/user-attachments/assets/ea2c1807-986b-4d45-ad95-f8c23121b166" /> <br>
+<img width="810" height="477" alt="image" src="https://github.com/user-attachments/assets/bd058f6d-1e33-4a9b-b463-320a3a6850ef" /><br>
 <br>
 
 ## Test 2 - Cluster Mesh High Avalability / Failover test
