@@ -146,9 +146,9 @@ Follow the steps below to run the script and perform the tests: <br>
 2) Now from the same directory using your terminal run command "source 00-create-all.sh" <br>
 - you will see the script perform all the tasks listed above and print out the results <br>
 <br>
-<img width="435" height="424" alt="image" src="https://github.com/user-attachments/assets/3f5a6932-ecf4-4c83-9e8c-1c2500d5c256" /> <br>
-<img width="599" height="421" alt="image" src="https://github.com/user-attachments/assets/702f5640-f45c-44ae-bdb9-5aabadb79adf" /> <br>
-<img width="642" height="423" alt="image" src="https://github.com/user-attachments/assets/2964634d-42fc-4b6b-a8b7-fab20abd0e06" /> <br>
+<img width="433" height="428" alt="image" src="https://github.com/user-attachments/assets/267c9ede-282a-4eac-8024-d6441dc04008" /> <br>
+<img width="585" height="422" alt="image" src="https://github.com/user-attachments/assets/290558d9-2b9c-4dee-ae4e-c450999dca84" /> <br>
+<img width="642" height="425" alt="image" src="https://github.com/user-attachments/assets/aeb10361-446d-44de-a543-b7a0185781bf" /> <br>
 <br>
 <br>
 Now remove the affinity to restore back to the Cluster Mesh global load balancer to load balance <br>
@@ -159,7 +159,7 @@ Follow the steps below to run the script and perform the tests: <br>
 2) Now from the same directory using your terminal run command "source 00-create-all.sh" <br>
 - you will see the script perform all the tasks listed above and print out the results <br>
 <br>
-<img width="445" height="448" alt="image" src="https://github.com/user-attachments/assets/0187fde8-a4ac-4c4c-be0f-f8611225f3d1" /> <br>
+<img width="389" height="423" alt="image" src="https://github.com/user-attachments/assets/75d8cbea-48bd-47dd-b7f8-a023a45c942d" /> <br>
 <br>
 
 
