@@ -166,7 +166,7 @@ Follow the steps below to run the script and perform the tests: <br>
 <br>
 Follow the steps below to run the script and perform the tests: <br>
 <br>
-1) Change into directory called "delete-all.sh" <br>
+1) Change into directory called "delete-all" <br>
 2) Now from the same directory using your terminal run command "source delete-all.sh" <br>
 <br>
 <img width="573" height="141" alt="image" src="https://github.com/user-attachments/assets/5275e985-fcbc-4cdd-9f1b-ce356877b5c9" /> <br>
