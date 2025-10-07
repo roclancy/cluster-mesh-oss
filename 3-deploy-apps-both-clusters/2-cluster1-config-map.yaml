@@ -4,5 +4,5 @@ kind: ConfigMap
 metadata:
   name: rebel-base-response
 data:
-  message: "{\"CLUSTER-1\": \"The-Access-Group-Production\"}\n"
+  message: "{\"CLUSTER-1\": \"Production\"}\n"
   
