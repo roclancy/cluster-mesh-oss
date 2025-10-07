@@ -162,6 +162,15 @@ Follow the steps below to run the script and perform the tests: <br>
 <img width="389" height="423" alt="image" src="https://github.com/user-attachments/assets/75d8cbea-48bd-47dd-b7f8-a023a45c942d" /> <br>
 <br>
 
+## DELETE ALL - This will delete all your clusters
+<br>
+Follow the steps below to run the script and perform the tests: <br>
+<br>
+1) Change into directory called "delete-all" <br>
+2) Now from the same directory using your terminal run command "source delete-all.sh" <br>
+<br>
+<img width="573" height="141" alt="image" src="https://github.com/user-attachments/assets/5275e985-fcbc-4cdd-9f1b-ce356877b5c9" /> <br>
+<br>
 
 
 
