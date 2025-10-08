@@ -128,7 +128,7 @@ Follow the steps below to run the script and perform the tests: <br>
 
 ## Test 4 - Affinity - Define where a request should be serviced from - Local
 <br>
-This test will show how the Cluster Mesh load balancer can keep requests local to the cluster by setting an Affinity. (you can also set a remote Affinity so requests would be serviced by a remote cluster we don't show that in this test but the process is the same except we specify remote and not local ) <br>
+This test will show how the Cluster Mesh load balancer can keep requests local to the cluster by setting an Affinity. (you can also set a remote Affinity so requests would be serviced by a remote cluster we don't show that in this test but the process is the same except we would specify remote and not local ) <br>
 <br>
 Affinity defines where a request should be serviced from first (in this case local to where the request came from) but if that first option (local Affinity) was to fail the Cluster Mesh load balancer would then route the request to the other avaliable clusters via the load balancer, there by ensuring the request is serviced even if affinity is set and that affinity cluster fails. This is what we will demonstrate in this test / demo.<br>
 <br>
